@@ -34,7 +34,12 @@ sim_txt
 -o file | 表示将结果输出到file中|
 
     最后可以输入文件名，支持通配符。
-* 示意：*如下两个文件：
+## 文件说明
+**sim_bin**	Windows可执行文件
+
+**sim_src**	源文件
+## 示例
+*如下两个文件：
 ```
 //a.cpp
 #include<stdio.h>
