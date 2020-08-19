@@ -40,7 +40,7 @@ sim_txt
 **sim_src**	源文件
 ## 示例
 *如下两个文件：
-```
+```cpp
 //a.cpp
 #include<stdio.h>
 typedef struct //定义一个新的数据类型
@@ -103,7 +103,7 @@ void f(Date x, Date y)
 ```
 
 
-```
+```cpp
 //b.cpp
 #include<stdio.h>
 typedef struct //使用结构体
