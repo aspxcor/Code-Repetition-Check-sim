@@ -9,7 +9,7 @@
   * 安装依赖，一般来说，安装了gcc,make,flex这几个东西就够了。
   * 执行make install。
 
-搞定之后就会发现生成了一堆可执行文件:
+搞定之后就会发现生成了可执行文件:
 ```
 sim_8086
 sim_c
@@ -21,7 +21,9 @@ sim_mira
 sim_pasc
 sim_txt
 ```
-这样，编译工作就搞定了。不过，如果是用的windows，其实直接就有编译好的可执行文件了，不需要自己编译安装。。。
+这样，编译工作就搞定了。
+
+> 特别的，对于windows用户，我们提供了编译完成的可执行文件，您可以在仓库的bin文件夹中下载，或在https://github.com/aspxcor/Code-Repetition-Check-sim/releases/tag/v1.0 中获得适用于windows版本的可执行文件
 
 ## 用法
 * 选择语言： sim 支持多种语言：C, Java, Pascal, Modula-2, Lisp , Miranda, or text files，对应的命令分别是： sim_c ，sim_java，sim_pasc ，sim_m2，sim_lisp ，sim_mira，sim_text 。
@@ -199,20 +201,4 @@ a.cpp consists for 89 % of b.cpp material
 b.cpp consists for 86 % of a.cpp material
 ```
 
-相似度仍然达到了90%左右，所以我们可以确定的认为这两份作业是抄袭的。可以证明这个程序的识别率还是非常高的～
-## 附：作者说明
-### The software and text similarity tester SIM
-
-SIM tests lexical similarity in natural language texts and in programs in C, C++, Java, Pascal, Modula-2, Miranda, Lisp, and 8086 assembler code. It is used
-
-  * to detect duplicated code in large software projects, in program text, in shell scripts and in documentation;
-  * to detect plagiarism in (software) projects, educational and otherwise.
-
-SIM 3.0.2 is available as C sources and as MSDOS binaries. (The C sources for the previous version, 2.89, are still available here.) 
-There is a Unix-style manual page.
-
-The software similarity tester is very efficient and allows us to compare this year's students' work with that collected from many past years (much to the dismay of some, mostly non-CS, students). Students are told that their work is going to be compared, but some are non-believers ...
-
- We are not afraid that students would try to tune their work to the similarity tester. We reckon if they can do that they can also do the exercise.
-
-Since this piece of handicraft did not qualify as research, there are no international papers on it. The work was described in Dutch in Dick Grune, Matty Huntjens, Het detecteren van kopieën bij informatica-practica, Informatie, 31, 11, Nov 1989, pp. 864-867 ( lit. ref.)). An English translation of the paper is also available. There is a (probably obsolete) terse technical report about the internal workings of the program.
+相似度仍然达到了90%左右，所以我们可以确定的认为这两份代码存在抄袭。
