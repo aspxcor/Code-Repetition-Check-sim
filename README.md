@@ -23,7 +23,7 @@ sim_txt
 ```
 这样，编译工作就搞定了。
 
-> 特别的，对于windows用户，我们提供了编译完成的可执行文件，您可以在仓库的bin文件夹中下载，或在https://github.com/aspxcor/Code-Repetition-Check-sim/releases/tag/v1.0 中获得适用于windows版本的可执行文件
+> 特别的，对于windows用户，我们提供了编译完成的可执行文件，您可以在仓库的bin文件夹中下载，或在https://github.com/aspxcor/Code-Repetition-Check-sim/releases 中获得适用于windows版本的可执行文件
 
 ## 用法
 * 选择语言： sim 支持多种语言：C, Java, Pascal, Modula-2, Lisp , Miranda, or text files，对应的命令分别是： sim_c ，sim_java，sim_pasc ，sim_m2，sim_lisp ，sim_mira，sim_text 。
