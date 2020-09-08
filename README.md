@@ -192,7 +192,7 @@ int f(date d1, date d2)//函数定义
 这两个是用来计算日期差的cpp文件，虽然看上去有差别，且很多变量名都经过了替换，修改了注释，也改了缩进的风格，但是经过sim程序判别之后，可以发现他们的相似度还是极高的：
 
 ```
-ponyding@Business:~/桌面$ sim_c -p a.cpp b.cpp
+ponyding:~/桌面$ sim_c -p a.cpp b.cpp
 File a.cpp: 374 tokens, 82 lines
 File b.cpp: 388 tokens, 81 lines
 Total: 762 tokens
