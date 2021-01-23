@@ -2,11 +2,11 @@
 * sim工具可用于搭建在线OJ平台，用于检测网络比赛中代码复制粘贴的现象，是一个轻量化的代码查重工具。
 ## 安装配置
 * 下载解包之后查看并编辑Makefile的配置，进行编译，步骤如下：
-  * 选择操作系统，Makefile里有两套配置，一套是“For UNIX-like systems”，另一套是“For MSDOS + MinGW”，根据当前系统把另一套注释掉就行了。
+  * 选择操作系统，Makefile里有两套配置，一套是“For UNIX-like systems”，另一套是“For MSDOS + MinGW”，根据当前系统进行选择。
   * 修改BINDIR的值，推荐设置为/usr/bin/，一般来说，放到$PATH下比较方便。
   * 修改MAN1DIR的值，推荐设置为/usr/share/man/man1，这个目录是系统man文档的默认目录。
   * 将sim.1文件放到刚才设置的MAN1DIR里，放进去之后，man sim命令就应该可用了。
-  * 安装依赖，一般来说，安装了gcc,make,flex这几个东西就够了。
+  * 安装依赖，一般安装了gcc,make,flex即可
   * 执行make install。
 
 搞定之后就会发现生成了可执行文件:
@@ -21,7 +21,7 @@ sim_mira
 sim_pasc
 sim_txt
 ```
-这样，编译工作就搞定了。
+这样，编译工作就完成了
 
 > 特别的，对于windows用户，我们提供了编译完成的可执行文件，您可以在仓库的bin文件夹中下载，或在https://github.com/aspxcor/Code-Repetition-Check-sim/releases 中获得适用于windows版本的可执行文件
 
@@ -201,4 +201,4 @@ a.cpp consists for 89 % of b.cpp material
 b.cpp consists for 86 % of a.cpp material
 ```
 
-相似度仍然达到了90%左右，所以我们可以确定的认为这两份代码存在抄袭。
+相似度仍然达到了90%左右，所以我们可以认为这两份代码存在抄袭。
